@@ -1,0 +1,120 @@
+body
+{
+ 	margin-left: 2%;
+        margin-right: 2%;
+	font-size: 10pt;
+  font-family: sans-serif;
+	background-color: #cccccc;
+	background-image: url('image.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	color: black;
+}
+.A
+{
+	background-color: rgb(200, 210, 200);
+}
+.B
+{
+	background-color: rgb(220, 230, 220);
+}
+td
+{
+	font-size: 10pt;
+	background-color: transparent;
+	text-align: left;
+        vertical-align: bottom;
+        border: 2px solid gray;
+}
+td.right
+{
+	text-align: right;
+}
+td.center
+{
+	text-align: center;
+}
+td.border
+{
+	background-color: #000000;
+}
+input
+{
+	font-size: 10pt;
+}
+div.title
+{
+	font-size: 12pt;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+a:link, a:visited
+{
+	color: #000000;
+}
+a:hover
+{
+	background-color: rgb(220, 230, 220);
+}
+table
+{
+      
+      border-collapse: collapse;
+      border-spacing:2px;
+      empty-cells: show;
+      padding:2px;
+      margin: 0px;
+	}
+form
+{
+	margin: 0px;
+	padding: 0px;
+}
+.ro
+{
+	background-color: #EEE;
+	color: #444;
+}
+div.right
+{position: absolute; 
+    top: 0px; right: 0px; 
+}
+th
+{
+	font-size: 10pt;
+	background-color: #33ccff;
+        font-weight: bold;
+	text-align: Center;
+        vertical-align: bottom;
+        border: 1px solid gray;
+
+
+}
+     
+thead th,
+tfoot th {
+	text-align: left;
+	border: 1px solid black;
+	background-color: #33ccff;
+}
+
+tfoot td {
+	border-top: 1px solid black;
+}
+
+tbody td {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+tbody tr.odd {
+	background-color: #DDF;
+}
+
+td.numeric,
+th.numeric {
+	text-align: right;
+}
+
+
